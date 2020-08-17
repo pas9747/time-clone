@@ -1,0 +1,426 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.top-page{
+    position: fixed;
+    width: 100%;
+}
+
+.title1, .titles1{
+    font-size: 40px;
+    color: rgb(18, 18, 18);
+    font-style: italic;
+    font-weight: bold;
+    cursor: text;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700px;
+    text-align: center;
+
+}
+.container1{
+    display: grid;
+    justify-content: center;
+}
+#im1{
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+.im1{
+    background-image: url(./images/im1.jpg);
+    height: 403px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.ftext, .standford, .bicep2{
+   color: rgb(102, 102, 102);
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 15px;
+   cursor: text;
+}
+
+.Rick, .by, .steffen{
+   color: rgb(136, 136, 136);
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 13px;
+   cursor: text;
+}
+
+.BY, .Dennis{
+    color: rgb(51, 51, 51);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: text;
+    
+}
+.Dennis{
+    text-decoration-line: underline;
+    text-decoration-color: rgb(204, 204, 204);
+    text-decoration-style: solid;
+    cursor: pointer;
+}
+
+.date{
+   color: rgb(51, 51, 51);
+   font-family: Arial, Helvetica, sans-serif;
+   display: inline-block;
+   font-size: 13px;
+   font-weight: 500px; 
+   cursor: text;
+}
+
+.t1, .t2, .t3, .t4, .t5, .t6, .t7, .t8, .t9, .t10, .t11, .t12, .t13, .t14, .t15, .t16, .t17, .t18, .t19, .t20, .t21, .t22, .t23, .t24, .t25, .t26, .t27, .t28, .t29, .t30, .t31, .t32, .t33, .t34, .t35, .t36, .t37, .t38, .t39, .t40, .t41, .t42,.t43, .t44, .t45, .t46, .t47, .t48, .t49, .t50, .t51, .t52, .t53, .t54 {
+   color: rgb(51, 51, 51);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   display: block;
+   font-size: 20px;
+   font-weight: 400px; 
+   cursor: text;
+}
+
+.silverb, .timeb, .gravitationalb, .knockedb{
+    color: rgb(50, 104, 145);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    font-size: 20px;
+    font-weight: 400px; 
+    cursor: pointer;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(50, 104, 145);
+    text-decoration-style: solid;
+    cursor: pointer;
+}
+
+.unlock{
+   text-align: center;
+   color: rgb(51, 51, 51);
+   font-family: Arial, Helvetica, sans-serif;
+   display: block;
+   font-size: 15px; 
+   font-weight: bold;
+   cursor: text;
+}
+
+.line1, .line2{
+    width: 72px;
+    background-color: rgb(102, 102, 102);
+}
+.account{
+    text-align: center;
+    color: rgb(50, 104, 145);
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    font-size: 15px; 
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.as, .spirals, .special{
+    color: rgb(51, 51, 51);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: text;  
+}
+
+.theory{
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;  
+}
+
+.astronmers{
+    color: rgb(102, 102, 102);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right:7px;  
+}
+
+.boldt{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    cursor: text;
+    font-weight: bold;
+}
+
+.normalt{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    cursor: text; 
+}
+.s1{
+cursor: pointer;
+}
+.s2{
+    cursor: pointer;
+}
+.s3{
+    cursor: pointer; 
+}
+.s4{
+    cursor: pointer;
+}
+.s5{
+    cursor: pointer;
+}
+.s6{
+    cursor: pointer;
+}
+.s7{
+    cursor: pointer;
+}
+.s8{
+    cursor: pointer;
+}
+
+.line3{
+    width: 72px;
+    background-color: rgb(0, 0, 0);
+    float: left;
+}
+
+.larry{
+    color: rgb(51, 51, 51);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    cursor: text;
+    margin-right:7px;  
+}
+
+.advertisement{
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    height: 62px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 9px;
+    margin-right:7px; 
+    color: rgb(216, 216, 216); 
+}
+
+.im2{
+    background-image: url(./images/im2.jpg);
+    height: 403px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.version{
+    color: rgb(102, 102, 102);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-right:7px;
+    cursor: text; 
+}
+
+.underline{
+    color: rgb(102, 102, 102);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    font-size: 12px;
+    font-weight: 400px; 
+    cursor: pointer;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(102, 102, 102);
+    text-decoration-style: solid;
+    cursor: pointer;
+}
+
+.readm{
+    background-color: rgb(86, 123, 149);
+    color: white;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(50, 104, 145);
+    border-radius: 3px;
+    padding: 8px 78px;
+    cursor: pointer;
+}
+
+.line4, .line5{
+    background-color: rgb(0, 0, 0);
+    float: left;
+}
+
+.line4{
+    width: 780px;
+    margin-right: 200px;
+}
+
+.mastronomy, .most{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right:7px;
+    font-weight: bold;
+}
+
+.european, .Peter, .cal, .Joe, .Caltech, .Fazenda, .Photo{
+    color: rgb(153, 153, 153);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    cursor: text;
+    margin-right:7px;
+}
+
+.looked, .Satellites, .nova, .launches, .Mars, .Guy, .Child, .Around{
+    color: rgb(18, 18, 18);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right:7px;
+}
+
+.aug, .aug2, .aug3, .july1, .july2, .aug4, .aug5, .aug6{
+    color: rgb(153, 153, 153);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    cursor: text;
+    margin-right:7px; 
+}
+
+.picture1{
+    background-image: url(./images/picture1.jpg);
+    height: 403px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.picture2{
+    background-image: url(./images/picture2.jpg);
+    height: 403px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.picture3{
+    background-image: url(./images/picture3.jpg);
+    height: 403px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer; 
+}
+
+.picture4{
+    background-image: url(./images/picture4.jpg);
+    height: 403px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.picture5{
+    background-image: url(./images/picture5.jpg);
+    height: 403px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer; 
+}
+
+.picture6{
+    background-image: url(./images/picture6.jpg);
+    height: 403px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.picture7{
+    background-image: url(./images/picture7.jpg);
+    height: 403px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.picture8{
+    background-image: url(./images/picture8.jpg);
+    height: 403px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.line5{
+    width: 220px;
+}
+
+.p1{
+    color: rgb(18, 18, 18);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right:7px;
+}
+.lines{
+    background-color: rgb(216, 216, 216); 
+    width: 780px;
+    margin-right: 200px;
+}
+
+.main-article{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding-top: 100px;
+}
+
+
+.menu{
+    display: flex;
+}
+
+.bar{
+flex: 1;
+}
+
+.search{
+    flex: 1;
+}
+
+.sac{
+    flex: 3;
+}
+
+.nyt{
+    flex: 7;
+}
+
+.subscribe{
+    flex: 3;
+}
+
+.login{
+    flex:2;
+}
+
